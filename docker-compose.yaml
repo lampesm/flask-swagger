@@ -1,0 +1,5 @@
+swagger-ui:
+   image: swaggerapi/swagger-ui:v4.11.1
+   container_name: swagger_ui_container
+   ports:
+      - "82:8080"
